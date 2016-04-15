@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<cd:ProductClass name="ENVISAT_DORIS" last-modified="2009-12-16" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+  <cd:Description>ENVISAT DORIS products</cd:Description>
+  <cd:ProductType name="DOR_DOP_0P">
+    <cd:Description>DORIS Doppler Level 0</cd:Description>
+    <cd:ProductDefinition id="DOR_DOP_0P_v0" format="binary" version="0">
+      <cd:Description>DORIS Doppler Level 0 version 0</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">DOR_DOP_0P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="DOR_NAV_0P">
+    <cd:Description>DORIS Navigator Level 0</cd:Description>
+    <cd:ProductDefinition id="DOR_NAV_0P_v0" format="binary" version="0">
+      <cd:Description>DORIS Navigator Level 0 version 0</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">DOR_NAV_0P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+</cd:ProductClass>
